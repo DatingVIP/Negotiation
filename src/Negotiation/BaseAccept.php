@@ -34,7 +34,7 @@ abstract class BaseAccept
      */
     public function __construct($value)
     {
-        list($type, $parameters) = $this->parseParameters($value);
+        list($type, $parameters) = $this->parseParameters($value ?? '');
 
         if (isset($parameters['q'])) {
             $this->quality = (float) $parameters['q'];
