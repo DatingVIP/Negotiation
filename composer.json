@@ -1,5 +1,5 @@
 {
-    "name": "willdurand/negotiation",
+    "name": "datingvip/negotiation",
     "description": "Content Negotiation tools for PHP provided as a standalone library.",
     "keywords": [ "content", "negotiation", "format", "accept", "header" ],
     "license": "MIT",
